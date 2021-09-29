@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Home Page {% endblock %}
+
+{% block content %}
+<div class="container d-flex mt-50 ml-auto ">
+    <div>
+        <h1 class="text-danger" style="margin-top: 35%; width: 280px;">Flood App</h1>
+
+        <button type="button" class="btn btn-warning w-100" style="margin: 10px 1px">
+            <a class="pricing text-dark text-decoration-none" href="/pricing">Pricing</a>
+        </button>
+        <button type="button" class="btn btn-success w-100" style="margin: 10px 1px">
+            <a class="pricing text-white text-decoration-none" href="/recipies">Recipies</a>
+        </button>
+    </div>
+
+    <img class="h-50" style="min-width: 70%;margin-top: 10%; margin-left: 15%; border-radius: 140px;"
+        src="https://food.bolt.eu/og-img.jpg" />
+</div>
+{% endblock %}
